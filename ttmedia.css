@@ -1,0 +1,618 @@
+@media (max-width:991px){
+    .nav-text{
+        display: none;
+    }
+    nav .nav-user{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    nav .nav-user>ul li a img{
+    width: 20px;
+    }
+    nav .nav-bars{
+        display: block;
+    }
+    nav .nav-bars img{
+        width: 40px;
+    }
+    .offcanvas{
+        width: 50%;
+        height: 100vh;
+        background-color: #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+        transition: all 0.5s ease;
+        z-index: 999;
+        display: block;
+        overflow: hidden;
+        opacity: 0;
+    }
+    .offcanvas-header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .offcanvas-body{
+        padding: 20px;
+        width: 100%;
+    }
+    .offcanvas-header img{
+        width: 150px;
+    }
+    .offcanvas-header img:nth-child(2){
+        filter: invert(1);
+        width: 30px;
+    }
+    .offcanvas-text ul{
+        list-style: none;
+    }
+    .offcanvas-text ul li a{
+        color: #fff !important;
+        text-decoration: none;
+        font-size: 25px;
+        display: inline-block;
+        padding: 15px 0;
+    }
+    .offcanvas-user{
+        display: none;
+    }
+    .offcanvas-user ul{
+        list-style: none;
+    }
+    .offcanvas-user ul li a{
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        display: inline-block;
+        padding: 10px;
+        background-color: #EA6D34;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .offcanvas-user ul li a img{
+        filter: invert(1);
+        width: 20px;
+        margin-right: 10px;
+    }
+    .best-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .best-container>.item{
+        width: calc(100% / 5 - 8px);
+    }
+    .best-container>.item .item-img{
+        height: 20vh;
+    }
+    .best-container>.item .item-img img{
+        height: 100px;
+    }
+    .best-container>.item .item-text h3{
+        font-size: 16px;
+    }
+    .best-container>.item .item-text .item-star img {
+        width: 10px;
+    }
+    .best-container>.item .item-text {
+        padding: 10px;
+    }
+    .item-price{
+        font-size: 13px;
+    }
+    .sale-off{
+        font-size: 12px;
+    }
+    .best-container>.item .item-text a{
+        font-size: 13px;
+    }
+    .view-text h1{
+        font-size: 3em;
+    }
+    .view-text p{
+        font-size: 20px;
+    }
+    .special-offer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .special-offer .offer-img{
+        width: 100%;
+    }
+    .special-offer .offer-text{
+        width: 100%;
+        padding-left: 0;
+    }
+    .services{
+        flex-wrap: wrap;
+    }
+    .service-item{
+        width: 50%;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer .item-1{
+        width: 100%;
+        justify-content: space-between;
+    }
+    footer .item-2{
+        width: 100%;
+    }
+    .send input{
+        width: 50%;
+    }
+    .stock-item span{
+        font-size: 14px;
+    }
+    .card-price h1{
+        font-size: 20px;
+    }
+    .card-price .price-stars img {
+        width: 15px;
+    }
+    .quantity-box button{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .quantity-box span{
+        font-size: 20px;
+    }
+    .card-group button{
+        height: 40px;
+    }
+    .sebet-container{
+        flex-direction: column;
+    }
+    .sebet-container section,.sebet-container .sebet-price{
+        width: 100%;
+    }
+    .smartphones .smart-item h3{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .smartphones .smart-item img{
+        width: 150px;
+        height: 150px;
+    }
+    .tab .smart-item img{
+        width: 100px;
+        height: 100px;
+    }
+    .lap .smart-item img{
+        height: 120px;
+    }
+}
+@media (max-width:768px){
+    .offcanvas{
+        width: 60%;
+    }
+    .best-container>.item{
+        width: calc(100% / 3 - 10px);
+    }
+    .overview{
+        flex-wrap: wrap;
+    }
+    .overview .left-view,
+    .overview .right-view{
+        width: 100%;
+    }
+    .view-text{
+        padding: 20px;
+    }
+    .over2-text{
+        width: 44%;
+        padding: 0;
+    }
+    .special-offer .offer-text p{
+        font-size: 1.5em;
+    }
+    .services{
+        gap: 20px;
+    }
+    .service-item{
+        width: 100%;
+    }
+    footer{
+        padding: 70px 20px;
+    }
+    footer .item-1>.footer-logo .call{
+        font-size: 20px;
+    }
+    .login .register{
+        width: 70%;
+    }
+    .card-container{
+        
+        flex-wrap: wrap;
+    }
+    .card-product,.card-price{
+        width: 100%;
+    }
+    .card-product{
+        height: auto;
+    }
+    .card-product .image1{
+        width: 100%;
+        flex-direction: row;
+    }
+    .card-product .image2{
+        width: 100%;
+    }
+    .card-price{
+        justify-content: normal;
+    }
+    .card-product .image2>div img{
+        width: 300px;
+        height: 300px;
+    }
+    .navteg{
+        margin-bottom: 20px;
+    }
+    .seb-img{
+        width: 70px;
+        height: 70px;
+    }
+    .seb-text h2{
+        font-size: 0.9em;
+    }
+    .seb-text span{
+        font-size: 0.9em;
+    }
+    .category-seacrh{
+        width: 100%;
+    }
+    .search{
+        width: 100%;
+    }
+    .kataloq>div h3{
+        display: none;
+    }
+    .open-kataloq{
+        flex-direction: column;
+    }
+    .kataloq-menu{
+        width: 100%;
+        border: none;
+    }
+    .kataloq-product{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #F3F3F3;
+        height: 300px;
+        display: none;
+    }
+    .smartphones{
+        height: 80%;
+        top: 38px;
+    }
+    .smartphones .smart-item{
+        padding: 0;
+    }
+    .smartphones .smart-item:nth-child(odd){
+        border-right: 0.3px solid #000;
+    }
+    .smartphones .smart-item:last-child{
+        border: none;
+    }
+    .smartphones .smart-item h3{
+        font-size: 14px;
+    }
+    .smartphones .smart-item img{
+        width: 130px;
+        height: 130px;
+    }
+    .kataloq-close{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .kataloq-close span{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+    .kataloq-close img{
+        width: 20px;
+    }
+    .tab .smart-item img{
+        width: 100px;
+        height: 100px;
+    }
+    .lap .smart-item img{
+        height: 120px;
+    }
+}
+@media (max-width:576px){
+    nav .nav-user>ul{
+        display: none;
+    }
+    nav .nav-logo>img{
+        width: 150px;
+    }
+    nav .nav-bars img {
+        width: 30px;
+    }
+    .offcanvas{
+        width: 70%;
+    }
+    .offcanvas-user{
+        display: block;
+    }
+    .best-container{
+        gap: 10px;
+    }
+    .best-container>.item{
+        width: 48%;
+    }
+    .best-container>.item .item-img{
+        height: 20vh;
+    }
+    .best-container>.item .item-img img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .best-container>.item .item-text{
+        padding: 10px;
+    }
+    .best-container>.item .item-text h3{
+        font-size: 16px;
+    }
+    .best-container>.item .item-text .item-star img{
+        width: 15px;
+    }
+    .item-price span{
+        font-size: 16px;
+    }
+    .best-container>.item .item-text a{
+        font-size: 13px;
+    }
+    .overview .left-view,
+    .overview .right-view{
+        height: 70vh;
+    }
+    .overview-2 .view-2{
+        height: 80vh;
+        flex-direction: column;
+    }
+    .over2-text{
+        width: 100%;
+        text-align: center;
+    }
+    .overview-2 .view-2 img{
+        width: 100%;
+        position: relative;
+        transform: translateX(-20px);
+    }
+    .special-offer .offer-img{
+        height: 50vh;
+    }
+    .special-offer .offer-text p{
+        font-size: 1em
+    }
+    .special-offer .offer-text h1{
+        font-size: 20px;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .special-offer .offer-text h1 span img{
+        width: 20px;
+    }
+    .special-offer .offer-text h1 span{
+        font-size: 13px;
+    }
+    .offer-text .stars img{
+        width: 15px;
+    }
+    .vision-price{
+        padding: 10px;
+    }
+    .vision-price span{
+        font-size: 16px;
+    }
+    .offer-text a{
+        font-size: 16px;
+        padding: 10px;
+    }
+    footer{
+        padding: 40px 20px;
+    }
+    footer .item-1{
+        flex-direction: column;
+        align-items: start;
+    }
+    footer .item-1> .footer-company{
+        width: 100%;
+    }
+    footer .item-1>.footer-logo{
+        width: 100%;
+    }
+    .send input{
+        width: 100%;
+    }
+    .login .register{
+        width: 90%;
+    }
+    .card-product .image2>div img{
+        width: 200px;
+        height: 200px;
+    }
+    .card-price h1{
+        font-size: 18px;
+    }
+    .card-price .price-stars img {
+        width: 15px;
+    }
+    .card-group button {
+        height: 35px;
+        font-size: 16px;
+    }
+    .card-product .image2{
+        height: 40vh;
+    }
+    .quantity-box span{
+        font-size: 16px;
+    }
+    .setcolor span{
+        width: 20px;
+        height: 20px;
+    }
+    .card-delete{
+        right: 5px;
+        top: 5px;
+    }
+    .card-delete img {
+        width: 23px;
+    }
+    .sebet-card input{
+        width: 10px;
+        height: 10px;
+    }
+    .seb-img{
+        width: 40px;
+        height: 40px;
+    }
+    .seb-text span{
+        font-size: 0.7em;
+    }
+    .sebet-delete .quantity-box button {
+        width: 20px;
+        height: 20px;
+        font-size: 11px;
+    }
+    .sebet-delete .quantity-box span{
+        font-size: 12px;
+    }
+    .sebet-delete a{
+        padding: 5px;
+    }
+    .sebet-delete a img{
+        width: 15px;
+    }
+    .sebet-delete .quantity-box{
+        gap: 0px;
+    }
+    .sebet-container{
+        padding: 10px;
+    }
+    .sebet-box{
+        padding: 20px 10px;
+    }
+    .sebet-card{
+        gap: 5px;
+    }
+    .sebet-delete{
+        gap: 5px;
+    }
+    .price-item span{
+        font-size: 0.8em;
+    }
+    .price-item>div{
+        font-size: 0.8em;
+    }
+    .price-item b {
+        font-size: 1em;
+    }
+    .sebet-price button{
+        padding: 15px;
+        font-size: 16px;
+    }
+    .smartphones{
+        flex-wrap: wrap;
+        height: 90%;
+    }
+    .smartphones .smart-item{
+        width: 50%;
+    }
+    .smartphones .smart-item img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (max-width:480px){
+    .offcanvas{
+        width: 90%;
+    }
+    .offcanvas-text ul li a{
+        font-size: 20px;
+    }
+    .offcanvas-header img{
+        width: 130px;
+    }
+    .best-container>.item .item-img img{
+        height: 100px;
+    }
+    .best-container>.item .item-text h3{
+        font-size: 13px;
+    }
+    .best-container>.item .item-text .item-star img{
+        width: 10px;
+    }
+    .best-container>.item .item-text .item-star{
+        padding: 0;
+    }
+    .best-container>.item .item-text a{
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .item-price{
+        margin-bottom: 5px;
+    }
+    .item-price span{
+        font-size: 11px;
+    } 
+    .best-container>.item .item-img .item-add{
+        padding: 0 10px;
+    }
+    .best-container>.item .item-img .item-add a{
+        font-size: 11px;
+        padding: 5px;
+    }
+    .best-container>.item .item-img .item-like{
+        width: 30px;
+        height: 30px;
+    }
+    .special-offer .offer-text h1{
+        font-size: 14px;
+    }
+    .login .register{
+        width: 100%;
+        padding: 10px;
+    }
+    .card-group{
+        flex-direction: column;
+        align-items: start;
+    }
+    .stock-item span{
+        font-size: 12px;
+    }
+    .product-buy{
+        padding: 10px;
+    }
+    .buy-container{
+        width: 100%;
+    }
+    .smartphones{
+        top: 25px;
+    }
+    .smartphones .smart-item img{
+        width: 80px;
+        height: 80px;
+    }
+}
